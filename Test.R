@@ -7,4 +7,4 @@ y <- a + b * x + rnorm(40, sd = sqrt(sig_sq))
 #> [1] 0.579
 write(x_n, "mittelwert_x.txt")
 plot(x, y)
-abline(a, b, col = "purple")
+abline(a, b, col = "red")
